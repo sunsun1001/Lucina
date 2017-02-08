@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="watch_background">#3593FA</color>
+    <color name="colorPrimary">#77BDF2</color>
+    <color name="lightBlue">#77BDF2</color>
+    <color name="colorPrimaryDark">#2D89A4</color>
+    <color name="darkBlue">#008EFA</color>
+    <color name="darkBlueText">#0063AF</color>
+    <color name="blueText">#5893BF</color>
+    <color name="colorAccent">#F3F3F3</color>
+    <color name="lightText">#F3F3F3</color>
+    <color name="whiteBakc">#F3F3F3</color>
+    <color name="darkText">#DDDDDD</color>
+    <color name="textColorPrimary">#F3F3F3</color>
+</resources>

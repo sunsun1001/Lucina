@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkBlue"
+    tools:context="cs160.lucina.onboarding.OnboardBirthdayActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/top_text"
+                android:layout_marginTop="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:text="The way infants move in their sleep changes as they get older. \n \nEnter 's birthday to help me work better."
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="@color/lightText"
+                />
+
+            <DatePicker
+                android:layout_marginTop="22dp"
+                android:id="@+id/birthday_picker"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_height="wrap_content"
+                android:datePickerMode="spinner"
+                android:spinnersShown="false"
+                android:background="@color/lightText"/>
+
+            <FrameLayout
+                android:layout_marginTop="22dp"
+                android:paddingBottom="6dp"
+                android:layout_marginBottom="33dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:clickable="true"
+                android:id="@+id/ok_button"
+                android:background="@drawable/rounded_rectangle_gray" >
+                <FrameLayout
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="11dp"
+                    android:paddingBottom="11dp"
+                    android:background="@drawable/rounded_rectangle_white" >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Next"
+                        android:textSize="20sp"
+                        android:textColor="@color/darkBlueText"
+                        />
+                </FrameLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

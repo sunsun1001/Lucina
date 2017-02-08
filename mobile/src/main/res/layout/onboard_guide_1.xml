@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/onboard_guide_1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBlue">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="22dp"
+                android:id="@+id/text_1"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_height="wrap_content"
+                android:text="Here's how I work:"
+                android:textAlignment="center"
+                android:textSize="33sp"
+                android:textColor="@color/lightText"
+                />
+
+            <TextView
+                android:layout_marginTop="22dp"
+                android:id="@+id/text_2"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_height="wrap_content"
+                android:text="(filler)"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="@color/lightText"
+                android:lineSpacingExtra="-2dp"
+                />
+
+            <ImageView
+                android:id="@+id/onboard_mic"
+                android:layout_marginTop="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/onboard_mic_accel" />
+
+            <TextView
+                android:id="@+id/text_3"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginTop="22dp"
+                android:layout_height="wrap_content"
+                android:text="Use Crib Mode to get notifications when Lucy wakes up at night. If she starts to cry, I'll let you know."
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:lineSpacingExtra="-2sp"
+                android:textColor="@color/lightText"
+                />
+
+            <ImageView
+                android:id="@+id/onboard_mic_accel"
+                android:layout_marginTop="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/onboard_mic" />
+
+            <TextView
+                android:id="@+id/text_4"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginTop="22dp"
+                android:layout_height="wrap_content"
+                android:text="Or, use the Nursery Monitor to only turn on crying detection."
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="@color/lightText"
+                android:lineSpacingExtra="-2dp"
+                />
+
+            <FrameLayout
+                android:layout_marginTop="22dp"
+                android:paddingBottom="6dp"
+                android:layout_marginBottom="33dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:clickable="true"
+                android:id="@+id/ok_button"
+                android:background="@drawable/rounded_rectangle_gray" >
+                <FrameLayout
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="11dp"
+                    android:paddingBottom="11dp"
+                    android:background="@drawable/rounded_rectangle_white" >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Next"
+                        android:textSize="20sp"
+                        android:textColor="@color/darkBlueText"
+                        />
+                </FrameLayout>
+            </FrameLayout>
+
+            </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

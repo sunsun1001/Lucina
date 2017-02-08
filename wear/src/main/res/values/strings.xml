@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lucina</string>
+    <string name="CRY">cry</string>
+    <string name="SLEEP">sleep</string>
+    <string name="title_activity_watch_nursery">WatchNurseryActivity</string>
+    <string name="title_activity_watch_crib">WatchCribActivity</string>
+    <string name="title_activity_watch_alert">WatchAlertActivity</string>
+
+    <!-- messages from phone and watch, should be the same in mobile/.../strings.xml -->
+    <string name="start_crib_mode">crib</string>
+    <string name="start_nursery_mode">nursery</string>
+    <string name="fetch_last_recording">fetch_recording</string>
+</resources>

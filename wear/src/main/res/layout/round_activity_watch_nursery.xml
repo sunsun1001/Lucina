@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cs160.lucina.WatchNurseryActivity"
+    tools:deviceIds="wear_round"
+    android:background="@color/darkBlue"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="-36dp"
+            android:layout_gravity="center"
+            android:src="@drawable/sun"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_gravity="center"
+            android:text="Nursery Mode"
+            android:textSize="28sp"
+            android:textColor="@color/lightText" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="center"
+            android:text="is listening..."
+            android:textSize="16sp"
+            android:textColor="@color/lightText" />
+    </FrameLayout>
+
+
+</LinearLayout>

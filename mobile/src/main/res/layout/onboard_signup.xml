@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/onboard_signup_screen"
+    android:background="@color/darkBlue">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="33dp"
+                android:id="@+id/welcome_to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hi there! My name is"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textColor="@color/lightText"
+                />
+
+            <TextView
+                android:id="@+id/lucina_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textAlignment="center"
+                android:textSize="55sp"
+                android:textColor="@color/lightText"
+                />
+
+            <TextView
+                android:layout_marginTop="33dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:id="@+id/intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I'm a baby monitor that uses your smartwatch to help you keep track of your little one!"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textColor="@color/lightText"
+                />
+
+            <TextView
+                android:layout_marginTop="33dp"
+                android:id="@+id/name_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What's your child's first name?"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textColor="@color/lightText"
+                />
+
+            <EditText
+                android:id="@+id/name_input"
+                android:layout_marginTop="11dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="26dp"
+                android:background="@drawable/radiused_border"
+                android:padding="11dp"
+                android:textSize="20sp"
+                android:textColor="@color/lightText"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:layout_marginTop="33dp"
+                android:id="@+id/gender_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="And their gender?"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textColor="@color/lightText"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="So I know how to address him or her."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/lightText"
+                />
+
+            <LinearLayout
+                android:layout_marginTop="11dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="44dp"
+                android:layout_marginRight="44dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/m_button"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="M"
+                    android:textAlignment="center"
+                    android:textSize="48sp"
+                    android:textColor="@color/darkText"
+                    />
+
+                <TextView
+                    android:id="@+id/f_button"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="F"
+                    android:textAlignment="center"
+                    android:textSize="48sp"
+                    android:textColor="@color/darkText"
+                    />
+
+                <TextView
+                    android:id="@+id/star_button"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAlignment="center"
+                    android:textSize="48sp"
+                    android:textColor="@color/darkText"
+                    />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_marginTop="33dp"
+                android:paddingBottom="6dp"
+                android:layout_marginBottom="33dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:clickable="true"
+                android:id="@+id/ok_button"
+                android:background="@drawable/rounded_rectangle_gray" >
+                <FrameLayout
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="11dp"
+                    android:paddingBottom="11dp"
+                    android:background="@drawable/rounded_rectangle_white" >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Next"
+                        android:textSize="20sp"
+                        android:textColor="@color/darkBlueText"
+                        />
+                </FrameLayout>
+            </FrameLayout>
+            </LinearLayout>
+    </ScrollView>
+</LinearLayout>
